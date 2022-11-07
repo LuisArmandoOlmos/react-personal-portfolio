@@ -1,6 +1,6 @@
 export const Header = ({ children }) => {
   return (
-    <header >
+    <header className="fixed w-full">
       {children}
     </header>
   );
