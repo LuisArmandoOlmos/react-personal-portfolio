@@ -9,12 +9,16 @@ import {
   Contact,
   NavBar,
 } from "./components";
+import { SmMenu } from "./modal/SmMenu";
+import { useState } from "react";
 
 export const App = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   return (
     <>
       <Header>
-        <NavBar />
+        <NavBar setIsMenuOpen={setIsMenuOpen} />
       </Header>
       <Main>
         <Home id="home" />
@@ -24,6 +28,7 @@ export const App = () => {
         <Contact id="contact" />
       </Main>
       <Footer></Footer>
+      {!!isMenuOpen && <SmMenu setIsMenuOpen={setIsMenuOpen} />}
     </>
   );
 };
