@@ -25,7 +25,7 @@ export const App = () => {
         <About id="about" />
         <Skills id="skills" />
         <Projects id="projects" />
-        <Contact id="contact" />
+        {/* <Contact id="contact" /> */}
       </Main>
       <Footer></Footer>
       {!!isMenuOpen && <SmMenu setIsMenuOpen={setIsMenuOpen} />}

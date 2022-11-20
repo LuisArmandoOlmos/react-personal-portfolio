@@ -67,7 +67,7 @@ export const SmMenu = ({ setIsMenuOpen }) => {
             Projects
           </Link>
         </li>
-        <li className="hover:text-primary cursor-pointer border-b-2 w-full py-2 border-primary">
+        {/* <li className="hover:text-primary cursor-pointer border-b-2 w-full py-2 border-primary">
           <Link
             to="contact"
             spy={true}
@@ -76,7 +76,7 @@ export const SmMenu = ({ setIsMenuOpen }) => {
           >
             Contact
           </Link>
-        </li>
+        </li> */}
       </ul>
     </section>,
     document.getElementById("smMenu")

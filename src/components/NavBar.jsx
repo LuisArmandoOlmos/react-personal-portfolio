@@ -45,7 +45,7 @@ export const NavBar = ({ setIsMenuOpen }) => {
                 Projects
               </Link>
             </li>
-            <li className="hover:text-primary cursor-pointer">
+            {/* <li className="hover:text-primary cursor-pointer">
               <Link
                 to="contact"
                 spy={true}
@@ -55,7 +55,7 @@ export const NavBar = ({ setIsMenuOpen }) => {
               >
                 Contact
               </Link>
-            </li>
+            </li> */}
           </ul>
         </nav>
 
