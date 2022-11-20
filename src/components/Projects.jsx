@@ -4,6 +4,22 @@ export const Projects = ({ id }) => {
   const as = id;
   const projectsList = [
     {
+      name: "Hero finder",
+      projectsImg: todoMachine,
+      projectUrl: "https://luis-olmos-hero-finder.netlify.app/",
+      projectRepository: "https://github.com/LuisArmandoOlmos/react-hero-finder-app",
+      textP: "It is a web page to search for information on the heroes shown.",
+      textAlt: "Hero finder image",
+    },
+    {
+      name: "Gif Express",
+      projectsImg: todoMachine,
+      projectUrl: "https://luis-olmos-gif-express.netlify.app/",
+      projectRepository: "https://github.com/LuisArmandoOlmos/react-gif-express-app",
+      textP: "It is a web page to search gif easily and quickly..",
+      textAlt: "Coming soon",
+    },
+    {
       name: "Todo Machine",
       projectsImg: todoMachine,
       projectUrl: "https://luisarmandoolmos.github.io/react-todo-machine/",
@@ -11,26 +27,10 @@ export const Projects = ({ id }) => {
       textP: "It is a web page that helps you manage and check pending tasks.",
       textAlt: "Todo Machine Image",
     },
-    {
-      name: "Coming soon",
-      projectsImg: todoMachine,
-      projectUrl: "#",
-      projectRepository: "#",
-      textP: "A new project will be added soon.",
-      textAlt: "Coming soon",
-    },
-    {
-      name: "Coming soon",
-      projectsImg: todoMachine,
-      projectUrl: "#",
-      projectRepository: "#",
-      textP: "A new project will be added soon.",
-      textAlt: "Coming soon",
-    },
   ];
   return (
     <div
-      className="bg-tertiary flex flex-col items-center justify-center h-[calc(100vh-50px)] text-white"
+      className="bg-tertiary flex flex-col items-center justify-center h-[calc(100vh-98px)] text-white"
       id={id}
     >
       <h2 className="w-[76%] text-xl md:text-2xl lg:text-3xl xl:text-4xl font-semibold mb-1 md:mb-2 lg:mb-3 xl:mb-4">
